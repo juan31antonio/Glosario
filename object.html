@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario HTML de Juan Antonio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html" target="_blank">Etiqueta head</a>
+        <a href="elementos_bloque.html" target="_blank">Elementos en bloque</a>
+        <a href="elementos_linea.html" target="_blank">Elementos en linea</a>
+    </nav>
+    <main>
+       <h3>object</h3>
+       <p>
+        Permite incrustar un recurso externo que puede ser una imagen (una alternativa al componente &lt;img&gt;),<br>
+        un contexto de navegación anidado (una alternativa al componente &lt;iframe&gt;) o un recurso manejado por un<br>
+        plug-in (una alternativa al componente &lt;embed&gt;). El elemento &lt;param&gt; permite parametrizar el contenido incrustado.<br>
+        Atributos significativos:<br>
+        • data: contiene el recurso que se ha de mostrar.<br>
+        • type: permite indicar el tipo de contenido (tipo MIME) que se va a mostrar.<br>
+        • name: es un nombre que podrá ser usado por elementos del contexto de navegación incrustado.<br>
+        • usemap: es una referencia al atributo name de un elemento &lt;map&gt; para establecer una relación entre ambos.<br>
+        • form: es una referencial al atributo id del formulario relacionado con el elemento.<br>
+        • width y height: determinan, respectivamente, el ancho y alto del objeto incrustado.
+       </p>
+       <pre>
+        <code>
+            <p>
+                &lt;object data="img1.jpg" width="300" height="200" &gt;&lt;/object&gt;
+                &lt;object data="html1.html" width="200” height="200“ &gt;&lt;/object&gt;
+            </p>
+        </code>
+        <p>
+            <object data="img1.jpg" width="300" height="200" ></object>
+            <object data="html1.html" width="200” height="200“ ></object>
+        </p>
+        </pre>
+    </main>
+    <footer>
+        <p>
+            Juan Antonio Cordero González <a href="mailto:jcorgon3112@g.educaand.es" target="_blank" >Contacto</a>
+        </p>
+    </footer>
+</body>
+</html>

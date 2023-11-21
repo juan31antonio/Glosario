@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Glosario HTML de Juan Antonio</h1></header>
+    <nav>
+        <a href="etiqueta_head.html" target="_blank">Etiqueta head</a>
+        <a href="elementos_bloque.html" target="_blank">Elementos en bloque</a>
+        <a href="elementos_linea.html" target="_blank">Elementos en linea</a>
+    </nav>
+    <main>
+       <h3>picture</h3>
+       <p>
+        Utilizada de manera conjunta con el componente &lt;source&gt;, permite proporcionar versiones<br>
+        alternativas a un elemento &lt;img&gt; en función de una regla definida por el diseñador de la página.
+       </p>
+       <pre>
+        <code>
+            &lt;picture&gt;
+                &lt;source srcset="tormentaramas.jpg" media="(max-width: 600px)"&gt;
+                &lt;source srcset="tormentadetalle.jpg" media="(max-width: 1000px)"&gt;
+                &lt;img src="tormenta.jpg" alt="Arbol arrancado por la tormenta" &gt;
+            &lt;/picture&gt;
+        </code>
+        <p>
+            <picture>
+                <source srcset="tormentaramas.jpg" media="(max-width: 600px)">
+                <source srcset="tormentadetalle.jpg" media="(max-width: 1000px)">
+                <img src="tormenta.jpg" alt="Arbol arrancado por la tormenta" >
+            </picture>
+        </p>
+        </pre>
+    </main>
+    <footer>
+        <p>
+            Juan Antonio Cordero González <a href="mailto:jcorgon3112@g.educaand.es" target="_blank" >Contacto</a>
+        </p>
+    </footer>
+</body>
+</html>
